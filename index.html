@@ -1,10 +1,82 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
+
 <head>
 		<link type = "text/css" rel = "stylesheet" href = "stylesheet.css" />
 		<title>ear-trainer</title> <!-- nombre temporal, claramente podemos ser mucho más creativos -->
 </head>
 
 <body>
-	<header class = "header">
+	<header class = "header"> <!-- Barra con posición fija y color alpha cuando se hace scroll (es decir, la sidebar no está en la posición inicial) -->
+		<nav class = "fixedNav">
+			<!-- Aqui el logo puqueño horizontal -->
+			<ul class = "lineaBarra"> <!-- Como el logo va a recibir un trato muy distinto, sobre todo en posicionamineto, al de los botones se deja por fuera de la ul -->
+				<li><a href = ".features">Features</a></li>
+				<li><a href = ".train">Train</a></li>
+				<li><a href = "about">About Us</a></li>
+			</ul>
+		</nav>
 	</header>
+
+	<section class  = "features">
+		<!--la imagen de fondo queda visible solo en esta sección, dando un efecto visual muy bonito -->
+	</section>
+
+	<section class = "train">
+		<button type = "play">&#9658</button>
+		<!-- insertar el player, todavía no estoy seguro como -->
+		<p class = "advice"></p> <!-- desde la base de datos, pasando por node.js, hasta acá, se manda el mensaje -->
+		<div class = "selectionPannel">
+			<ul class = "scale">
+				<p>Major</p>
+				<p>Minor</p>
+			</ul>
+			<ul class = "tone">
+				<p>Unison</p>
+				<p>2</p>
+				<p>3</p>
+				<p>4</p>
+				<p>Tritone</p>
+				<p>5</p>
+				<p>6</p>
+				<p>7</p>
+				<p>Octave</p>
+			</ul>
+			<ul class = "buttons">
+				<li id = "centered"><button type = "answer">&#9834</button></li>
+				<ul id = "two">
+					<li><button type = "answer">&#9834</button></li>
+					<li><button type = "answer">&#9834</button></li>
+				</ul>
+				<ul id = "two">
+					<li><button type = "answer">&#9834</button></li>
+					<li><button type = "answer">&#9834</button></li>
+				</ul>
+				<li id = "centered"><button type = "answer">&#9834</button></li>
+				<li id = "centered"><button type = "answer">&#9834</button></li>
+				<li id = "centered"><button type = "answer">&#9834</button></li>
+				<ul id = "two">
+					<li><button type = "answer">&#9834</button></li>
+					<li><button type = "answer">&#9834</button></li>
+				</ul>
+				<ul id = "two">
+					<li><button type = "answer">&#9834</button></li>
+					<li><button type = "answer">&#9834</button></li>
+				</ul>
+				<li id = "centered"><button type = "answer">&#9834</button></li>
+			</ul>
+		</div>
+	</section>
+
+	<section class = "about">
+		<ul class = "esteban">
+			<li><!--imagen --></li>
+			<li><h2>Esteban Vargas</h2></li>
+			<li><p>blah blah blah</p></li>
+		</ul>
+		<ul class = "juank">
+			<li><!--imagen --></li>
+			<li><h2>Juan C. Saldarriaga</h2></li>
+			<li><p>blah blah blah</p></li>
+		</ul>
+	</section>
 </body>
