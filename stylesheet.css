@@ -1,0 +1,49 @@
+.header{
+	width: 100%; /*es width, mas no max-width. OJO con eso*/
+	background-color: #df00ff;
+	margin-top: -1.1em;
+	position: fixed;
+	margin-bottom: 2em;
+	z-index: 1;
+
+}
+.lineaBarra{
+	text-align: right;
+
+	
+}
+.lineaBarra>li{
+	display: inline;
+	text-align: right;
+	padding: 2em 2em;
+
+}
+.fixedNav{
+	max-width: 100%;
+	color: white;
+	font-family: "helvetica";
+	font-style: normal;
+	font-weight: 700;
+	height: 6em;
+
+	font-size: 110%;
+	line-height: 6;
+}
+.lineaBarra>li>a{
+	color:white;
+	text-decoration: none;
+	text-align: right;
+	border: 0.2em solid #C600E4;
+	padding: 0.5em 1em;
+	border-radius: 0.3em;
+	background-color: #C600E4
+
+}
+.lineaBarra>li>a:hover{
+	border: 0.2em solid #E84BFF;
+	color: white;
+	background-color: #E84BFF;
+}
+.lineaBarra>li>a:visited{
+	text-decoration: none;
+}
