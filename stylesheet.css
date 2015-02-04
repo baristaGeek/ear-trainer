@@ -2,7 +2,7 @@
 	width: 100%; /*es width, mas no max-width. OJO con eso*/
 	background-color: #df00ff;
 	margin-top: -1.1em;
-	position: fixed;
+	/*position: fixed; aparentemente está funcionando con posicion relative o fixed*/
 	margin-bottom: 2em;
 	z-index: 1;
 
@@ -46,4 +46,23 @@
 }
 .lineaBarra>li>a:visited{
 	text-decoration: none;
+}
+
+
+
+
+
+.about{
+	background-color: #df00ff;
+	text-align: center;
+	color: white;
+	font-family: "helvetica";
+	font-style: normal;
+	display: block; 
+	/*display: block; -> FTW*/
+}
+.about>ul{
+	display: inline-block;
+	/*display: inline-block; -> FTW*/
+	padding: 2em 9em;
 }
