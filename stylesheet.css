@@ -2,7 +2,7 @@
 	width: 100%; /*es width, mas no max-width. OJO con eso*/
 	background-color: #df00ff;
 	margin-top: -1.1em;
-	/*position: fixed; aparentemente está funcionando con posicion relative o fixed*/
+	/*position: fixed; aparentemente está funcionando con posicion relative o fixed, pero se come un pedazo del trainer en fixed*/
 	margin-bottom: 2em;
 	z-index: 1;
 
@@ -30,7 +30,7 @@
 	line-height: 6;
 }
 .lineaBarra>li>a{
-	color:white;
+	color: white;
 	text-decoration: none;
 	text-align: right;
 	border: 0.2em solid #C600E4;
@@ -48,6 +48,18 @@
 	text-decoration: none;
 }
 
+.train{
+	max-width: 62%;
+	position: center;
+	margin-bottom: 2em;
+	border: 1px solid rgba(176,184,191,0.33);
+	margin-left: 19%;
+	border-radius: 5px;	
+}
+.trainWrap{
+	padding: 2em;
+}
+
 
 
 
@@ -60,9 +72,14 @@
 	font-style: normal;
 	display: block; 
 	/*display: block; -> FTW*/
+	
+
 }
 .about>ul{
 	display: inline-block;
 	/*display: inline-block; -> FTW*/
 	padding: 2em 9em;
+	list-style-type: none;
+	max-width: 25%;
+
 }
