@@ -1,6 +1,6 @@
 .header{
 	width: 100%; /*es width, mas no max-width. OJO con eso*/
-	background-color: #df00ff;
+	background-color: #8F329C;
 	margin-top: -1.1em;
 	/*position: fixed; aparentemente está funcionando con posicion relative o fixed, pero se come un pedazo del trainer en fixed*/
 	margin-bottom: 2em;
@@ -33,16 +33,16 @@
 	color: white;
 	text-decoration: none;
 	text-align: right;
-	border: 0.2em solid #C600E4;
+	border: 0.2em solid #682971;
 	padding: 0.5em 1em;
 	border-radius: 0.3em;
-	background-color: #C600E4
+	background-color: #682971;
 
 }
 .lineaBarra>li>a:hover{
-	border: 0.2em solid #E84BFF;
+	border: 0.2em solid #C83EDB;
 	color: white;
-	background-color: #E84BFF;
+	background-color: #C83EDB;
 }
 .lineaBarra>li>a:visited{
 	text-decoration: none;
@@ -65,7 +65,7 @@
 
 
 .about{
-	background-color: #df00ff;
+	background-color: #8F329C;
 	text-align: center;
 	color: white;
 	font-family: "helvetica";
