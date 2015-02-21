@@ -48,6 +48,9 @@
 	text-decoration: none;
 }
 
+
+
+
 .train{
 	max-width: 62%;
 	position: center;
@@ -59,6 +62,67 @@
 .trainWrap{
 	padding: 2em;
 }
+.selectionPannel{
+	display: block;
+}
+.scale>li{
+	display: inline-block;
+	position: center;
+	padding: 0em 9.5em;
+	text-align: center;
+
+}
+.advice{
+	/*text-align: right; no se ve bonito*/
+}
+.tone{
+
+}
+#single{
+	list-style-type: none;
+	display: block;
+}
+#single>li{
+	display: inline-block;
+}
+#double{
+	list-style-type: none;
+	display: block;
+}
+#double>li{
+	display: inline-block;
+}
+#halfButton{
+	margin-left: 10.6em;
+	background-color: #682971;
+	color: white;
+	border: 0.15em solid #682971;
+	border-radius: 5px;
+	padding: 0em 1em;
+	margin-bottom: 1em;
+}
+#halfButton:hover{
+	background-color: transparent;
+	color: #682971;
+	border: 0.15em solid #682971;
+	border-radius: 5px;
+}
+#button{
+	margin-left: 15em;
+	background-color: #682971;
+	color: white;
+	border: 0.15em solid #682971;
+	border-radius: 5px;
+	padding: 0em 1em;
+	margin-bottom: 1em;
+}
+#button:hover{
+	background-color: transparent;
+	color: #682971;
+	border: 0.15em solid #682971;
+	border-radius: 5px;
+}
+
 
 
 
@@ -83,3 +147,4 @@
 	max-width: 25%;
 
 }
+
