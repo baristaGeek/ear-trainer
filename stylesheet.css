@@ -28,6 +28,8 @@
 
 	font-size: 110%;
 	line-height: 6;
+
+	box-shadow: 0px 8px 0px #582A72;
 }
 
 .lineaBarra>li>a{
@@ -51,6 +53,9 @@
 }
 
 
+body{
+	background-color: #F8F8F8;
+}
 .train{
 	max-width: 62%;
 	position: center;
@@ -58,6 +63,7 @@
 	border: 1px solid rgba(176,184,191,0.33);
 	margin-left: 19%;
 	border-radius: 5px;	
+	background-color: white;
 }
 .trainWrap{
 	padding: 2em;
@@ -141,6 +147,7 @@
 	display: block; 
 	/*display: block; -> FTW*/
 	
+	box-shadow: 0px -8px 0px #582A72;
 
 }
 .about>ul{
@@ -153,8 +160,10 @@
 }
 .about>ul>li>h2{
 	font-family: 'Oswald';
+	color: #582A72;
 }
 .about>ul>li>p{
 	font-family: 'Average';
+	color: black;
 }
 
