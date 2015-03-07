@@ -29,6 +29,7 @@
 	font-size: 110%;
 	line-height: 6;
 }
+
 .lineaBarra>li>a{
 	color: white;
 	text-decoration: none;
@@ -37,6 +38,7 @@
 	padding: 0.5em 1em;
 	border-radius: 0.3em;
 	background-color: #582A72;
+	transition: background-color 0.5s linear;
 
 }
 .lineaBarra>li>a:hover{
@@ -47,8 +49,6 @@
 .lineaBarra>li>a:visited{
 	text-decoration: none;
 }
-
-
 
 
 .train{
@@ -136,7 +136,7 @@
 	background-color: #B274D4;
 	text-align: center;
 	color: white;
-	font-family: "helvetica";
+
 	font-style: normal;
 	display: block; 
 	/*display: block; -> FTW*/
@@ -150,5 +150,11 @@
 	list-style-type: none;
 	max-width: 25%;
 
+}
+.about>ul>li>h2{
+	font-family: 'Oswald';
+}
+.about>ul>li>p{
+	font-family: 'Average';
 }
 
