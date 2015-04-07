@@ -9,4 +9,16 @@ $(document).ready(function(){
     }
   );
 
+  $('.button').click(
+  	function(){
+  		$(this).fadeTo("slow", 0.2);
+  	}
+  );
+
+  $('.halfButton').click(
+  	function(){
+  		$(this).fadeTo("slow", 0.2);
+  	}
+  );
+
 });
